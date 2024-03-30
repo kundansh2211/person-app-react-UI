@@ -75,8 +75,10 @@ function Add() {
             <label htmlFor='pin' className="form-label">Pincode</label>
             <input id='pin' name='pincode' className="form-control" {...register('pincode')} />
         </div>
-        <button type='submit' className='btn btn-outline-success me-2'>Add Person</button>
-        <button type='reset' className='btn btn-outline-warning'>Reset</button>
+        <div className='mb-5'>
+        <button type='submit' className='btn btn-outline-success me-2 col-5'>Add Person</button>
+        <button type='reset' className='btn btn-outline-warning col-5'>Reset</button>
+        </div>
     </form>
 </div>
 
